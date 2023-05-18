@@ -8,7 +8,7 @@ const Header = () => {
             <div className='relative'>
                 <img className='mx-auto' src="/images/background-image.png" alt="" />
                 <img className='absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2' src="/images/Me.png" alt="" />
-                <img className='absolute -top-2 right-16' src="/images/Arrow.png" alt="" />
+                <img className='absolute -top-3 left-1/2' src="/images/Arrow.png" alt="" />
             </div>       
             
             
