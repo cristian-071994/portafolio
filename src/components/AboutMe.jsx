@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <article className="text-center py-4">
+    <article className="text-center py-4 max-w-[600px] mx-auto">
       <h1 className="text-4xl p-2 font-extrabold">Acerca de mi</h1>
       <section className="px-4 text-center text-sm ">
         <p className="text-sm m-3 text-center">
@@ -36,15 +36,15 @@ const AboutMe = () => {
             Desarrollo de Aplicaciones Web con React
           </a>
         </p>
-        <p className="font-light">
+        <p className="font-light bg-[#11071F] relative z-20">
           Probablemente soy el diseñador más apasionado con el que trabajarás.
           Si tienes un gran proyecto que necesita algunas habilidades
           increíbles, soy quien estás buscando.
         </p>
       </section>
-      <div className="max-w-[320px] m-auto ">
-        <div className="max-w-[320px] bg-white"></div>
-        <img src="/images/technologies.png" alt="" />
+      <div className="max-w-[320px] m-auto">
+        
+        <img className="relative -top-6 " src="/images/technologies.png" alt="" />
       </div>
     </article>
   );

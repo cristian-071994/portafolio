@@ -7,7 +7,7 @@ function App() {
   
 
   return (
-    <main className="bg-[#11071F] text-white min-h-screen font-['Poppins']">
+    <main className="bg-[#11071F] text-white min-h-screen font-['Poppins'] relative">
       <NavBar />
       <Header />
       <AboutMe />
