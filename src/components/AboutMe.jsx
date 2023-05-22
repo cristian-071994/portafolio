@@ -2,10 +2,10 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <article className="text-center py-4 max-w-[600px] mx-auto">
-      <h1 className="text-4xl p-2 font-extrabold">Acerca de mi</h1>
-      <section className="px-4 text-center text-sm ">
-        <p className="text-sm m-3 text-center">
+    <article className="py-4 max-w-[600px] mx-auto">
+      <h1 className="text-4xl p-2 font-extrabold text-center">Acerca de mi</h1>
+      <section className="px-4 text-sm ">
+        <p className="text-sm m-2">
           <span className="text-xl">
             Ingeniero de Software Full-Stack en proceso.
           </span>{" "}
@@ -42,9 +42,9 @@ const AboutMe = () => {
           increíbles, soy quien estás buscando.
         </p>
       </section>
-      <div className="max-w-[320px] m-auto">
+      <div className="max-w-[320px] m-auto md:max-w-[520px]">
         
-        <img className="relative -top-6 " src="/images/technologies.png" alt="" />
+        <img className="relative -top-6 px-2 md:-top-9" src="/images/technologies.png" alt="" />
       </div>
     </article>
   );
