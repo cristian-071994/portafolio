@@ -2,14 +2,14 @@ import React from "react";
 
 const Header = () => {
   return (
-    <section className="max-w-[520px] mx-auto grid gap-3">
-      <article className="px-3">
+    <section className="max-w-[980px] mx-auto grid gap-3">
+      <article className="px-3 md:p-0">
         <h2 className="p-2 pb-0 text-center">
           Hola,{" "}
           <span className="text-[#7127BA]">soy Cristian Arley Gutierrez,</span>{" "}
           un desarrollador frontend
         </h2>
-        <section className="md:flex md:pr-10 md:py-8">
+        <section className="md:flex md:px-10 md:py-5">
           <div className="relative">
             <img
               className="mx-auto"
@@ -28,7 +28,7 @@ const Header = () => {
             />
           </div>
 
-          <div className="grid gap-2">
+          <div className="grid gap-2 items-center">
             <h1 className="text-4xl">
               <span className="text-sm underline">Un diseñador </span> <br />{" "}
               que juzga un libro por su{" "}

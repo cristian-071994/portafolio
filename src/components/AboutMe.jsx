@@ -2,9 +2,9 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <article className="py-4 max-w-[600px] mx-auto">
+    <article className="max-w-[980px] mx-auto">
       <h1 className="text-4xl p-2 font-extrabold text-center">Acerca de mi</h1>
-      <section className="px-4 text-sm ">
+      <section className="px-4 text-sm md:flex md:items-center md:z-20 md:relative md:bg-[#11071F]">
         <p className="text-sm m-2">
           <span className="text-xl">
             Ingeniero de Software Full-Stack en proceso.
@@ -36,7 +36,7 @@ const AboutMe = () => {
             Desarrollo de Aplicaciones Web con React
           </a>
         </p>
-        <p className="font-light bg-[#11071F] relative z-20">
+        <p className="font-light bg-[#11071F] relative z-20 md:p-3">
           Probablemente soy el diseñador más apasionado con el que trabajarás.
           Si tienes un gran proyecto que necesita algunas habilidades
           increíbles, soy quien estás buscando.
