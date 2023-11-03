@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <section className="max-w-[980px] mx-auto grid gap-3">
       <article className="px-3 md:p-0">
-        <h2 className="p-2 pb-0 text-center">
+        <h2 className="p-2 pb-0 text-center mt-16">
           Hola,{" "}
           <span className="text-[#7127BA]">soy Cristian Arley Gutierrez,</span>{" "}
           un desarrollador frontend
@@ -39,7 +39,7 @@ const Header = () => {
             </h6>
           </div>
         </section>
-      </article>      
+      </article>
     </section>
   );
 };
